@@ -1,0 +1,25 @@
+Description of files:
+
+G.txt contains a representation of the generator matrix G.
+G.txt contains 1723 rows, one for each row of G. Each row
+has integers ranging from 0 to 2047 separated by spaces. Each integer
+represents the column index of the “1” entries in the specific row. 
+All other entries of G are “0” and are not referenced in G.txt.
+
+H.txt contains a representation of the parity check matrix H that may
+be used to decode the codewords encoded by the generator matrix G. H.txt
+contains 325 rows, one for each row of H. Each row has integers ranging
+from 0 to 2047 separated by commas. Each integer represents the column
+index of the “1” entries in the specific row. All other entries of H
+are “0” and are not referenced in H.txt.
+
+row_swap.txt describes row permutations of H that can put it in pseudo-lower
+triangular form.
+
+col_swap.txt contains column permutations that were used to obtain H from an
+earlier version of the parity check matrix.
+
+H.txt, row_swap.txt and col_swap.txt are informative.
+
+
+
